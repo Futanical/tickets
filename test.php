@@ -42,7 +42,7 @@ $conn = connect($config);
 // TO SPIT OUT COMMENTS FROM A SINGULAR TICKET ON PAGE
 // SELECT comment, username, tickets.ticket_id FROM comments INNER JOIN users ON users.id = comments.user_id INNER JOIN tickets ON tickets.ticket_id = comments.ticket_id WHERE tickets.ticket_id = 34;
 
-
+?>
 
 
 
